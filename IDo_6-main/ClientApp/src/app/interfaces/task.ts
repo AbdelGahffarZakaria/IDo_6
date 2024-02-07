@@ -1,0 +1,12 @@
+import { User } from "./User";
+
+export class Task {
+  id: number;
+  title: string = "";
+  category: string = "";
+  dueDate: string = "2022-09-17T06:54:10.835Z";
+  estimate: string = "";
+  importance: string = "";
+  status: string = "todo"
+  user: User = new User;
+}
